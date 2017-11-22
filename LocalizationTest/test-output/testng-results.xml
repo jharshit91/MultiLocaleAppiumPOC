@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="93532" started-at="2017-11-21T12:35:52Z" finished-at="2017-11-21T12:37:25Z">
+    <groups>
+    </groups>
+    <test name="Test on 4 device" duration-ms="73195" started-at="2017-11-21T12:35:52Z" finished-at="2017-11-21T12:37:05Z">
+      <class name="test.LocalizationTestSuite">
+        <test-method status="PASS" signature="Configuration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LocalizationTestSuite@5f2108b5]" name="Configuration" is-config="true" duration-ms="45252" started-at="2017-11-21T18:05:52Z" finished-at="2017-11-21T18:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0d62d7f843e4ba94]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0d62d7f843e4ba94]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[fr-FR]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[64740]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuration -->
+        <test-method status="PASS" signature="elementPresent()[pri:1, instance:test.LocalizationTestSuite@5f2108b5]" name="elementPresent" duration-ms="9554" started-at="2017-11-21T18:06:37Z" finished-at="2017-11-21T18:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementPresent -->
+        <test-method status="PASS" signature="navigateToSettingScreen()[pri:2, instance:test.LocalizationTestSuite@5f2108b5]" name="navigateToSettingScreen" duration-ms="18372" started-at="2017-11-21T18:06:46Z" finished-at="2017-11-21T18:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSettingScreen -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LocalizationTestSuite@5f2108b5]" name="teardown" is-config="true" duration-ms="1354" started-at="2017-11-21T18:07:26Z" finished-at="2017-11-21T18:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.LocalizationTestSuite -->
+    </test> <!-- Test on 4 device -->
+    <test name="Test on 2 device" duration-ms="82125" started-at="2017-11-21T12:35:52Z" finished-at="2017-11-21T12:37:14Z">
+      <class name="test.LocalizationTestSuite">
+        <test-method status="PASS" signature="Configuration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LocalizationTestSuite@42dafa95]" name="Configuration" is-config="true" duration-ms="44013" started-at="2017-11-21T18:05:52Z" finished-at="2017-11-21T18:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pt-PT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[64738]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuration -->
+        <test-method status="PASS" signature="elementPresent()[pri:1, instance:test.LocalizationTestSuite@42dafa95]" name="elementPresent" duration-ms="15469" started-at="2017-11-21T18:06:36Z" finished-at="2017-11-21T18:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementPresent -->
+        <test-method status="PASS" signature="navigateToSettingScreen()[pri:2, instance:test.LocalizationTestSuite@42dafa95]" name="navigateToSettingScreen" duration-ms="22626" started-at="2017-11-21T18:06:51Z" finished-at="2017-11-21T18:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSettingScreen -->
+      </class> <!-- test.LocalizationTestSuite -->
+    </test> <!-- Test on 2 device -->
+    <test name="Test on 1 device" duration-ms="83080" started-at="2017-11-21T12:35:52Z" finished-at="2017-11-21T12:37:15Z">
+      <class name="test.LocalizationTestSuite">
+        <test-method status="PASS" signature="Configuration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LocalizationTestSuite@1794d431]" name="Configuration" is-config="true" duration-ms="47452" started-at="2017-11-21T18:05:52Z" finished-at="2017-11-21T18:06:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[en-IN]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[64737]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuration -->
+        <test-method status="PASS" signature="elementPresent()[pri:1, instance:test.LocalizationTestSuite@1794d431]" name="elementPresent" duration-ms="16192" started-at="2017-11-21T18:06:39Z" finished-at="2017-11-21T18:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementPresent -->
+        <test-method status="PASS" signature="navigateToSettingScreen()[pri:2, instance:test.LocalizationTestSuite@1794d431]" name="navigateToSettingScreen" duration-ms="19430" started-at="2017-11-21T18:06:55Z" finished-at="2017-11-21T18:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSettingScreen -->
+      </class> <!-- test.LocalizationTestSuite -->
+    </test> <!-- Test on 1 device -->
+    <test name="Test on 3 device" duration-ms="93532" started-at="2017-11-21T12:35:52Z" finished-at="2017-11-21T12:37:25Z">
+      <class name="test.LocalizationTestSuite">
+        <test-method status="PASS" signature="Configuration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LocalizationTestSuite@73ad2d6]" name="Configuration" is-config="true" duration-ms="56747" started-at="2017-11-21T18:05:52Z" finished-at="2017-11-21T18:06:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Moto G (4)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ZY223Q76Q6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[es-ES]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[64739]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuration -->
+        <test-method status="PASS" signature="elementPresent()[pri:1, instance:test.LocalizationTestSuite@73ad2d6]" name="elementPresent" duration-ms="20878" started-at="2017-11-21T18:06:48Z" finished-at="2017-11-21T18:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementPresent -->
+        <test-method status="PASS" signature="navigateToSettingScreen()[pri:2, instance:test.LocalizationTestSuite@73ad2d6]" name="navigateToSettingScreen" duration-ms="15900" started-at="2017-11-21T18:07:09Z" finished-at="2017-11-21T18:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSettingScreen -->
+      </class> <!-- test.LocalizationTestSuite -->
+    </test> <!-- Test on 3 device -->
+  </suite> <!-- TestSuite -->
+</testng-results>

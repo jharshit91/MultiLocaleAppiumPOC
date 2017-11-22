@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuiteCreator" duration-ms="65026" started-at="2017-11-10T05:28:00Z" finished-at="2017-11-10T05:29:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="65026" started-at="2017-11-10T05:28:00Z" finished-at="2017-11-10T05:29:05Z">
+      <class name="test.GridSuitePrepartationTest">
+        <test-method status="PASS" signature="EnviromentSetup()[pri:0, instance:test.GridSuitePrepartationTest@246ae04d]" name="EnviromentSetup" duration-ms="65009" started-at="2017-11-10T10:58:00Z" finished-at="2017-11-10T10:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnviromentSetup -->
+      </class> <!-- test.GridSuitePrepartationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuiteCreator -->
+</testng-results>

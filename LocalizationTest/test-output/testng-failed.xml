@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="wdaPort" value="NA"/>
+  <parameter name="simulator" value="false"/>
+  <parameter name="os" value="6.0"/>
+  <parameter name="port" value="64740"/>
+  <parameter name="udid" value="0d62d7f843e4ba94"/>
+  <parameter name="locale" value="fr-FR"/>
+  <parameter name="deviceName" value="0d62d7f843e4ba94"/>
+  <parameter name="platform" value="Android"/>
+  <test name="Test on 1 device">
+    <parameter name="wdaPort" value="NA"/>
+    <parameter name="simulator" value="true"/>
+    <parameter name="os" value="6.0"/>
+    <parameter name="port" value="64737"/>
+    <parameter name="udid" value="emulator-5556"/>
+    <parameter name="locale" value="en-IN"/>
+    <parameter name="deviceName" value="emulator-5556"/>
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="test.LocalizationTestSuite"/>
+    </classes>
+  </test> <!-- Test on 1 device -->
+  <test name="Test on 2 device">
+    <parameter name="wdaPort" value="NA"/>
+    <parameter name="simulator" value="true"/>
+    <parameter name="os" value="6.0"/>
+    <parameter name="port" value="64738"/>
+    <parameter name="udid" value="emulator-5554"/>
+    <parameter name="locale" value="pt-PT"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="test.LocalizationTestSuite"/>
+    </classes>
+  </test> <!-- Test on 2 device -->
+  <test name="Test on 3 device">
+    <parameter name="wdaPort" value="NA"/>
+    <parameter name="simulator" value="false"/>
+    <parameter name="os" value="7.0"/>
+    <parameter name="port" value="64739"/>
+    <parameter name="udid" value="ZY223Q76Q6"/>
+    <parameter name="locale" value="es-ES"/>
+    <parameter name="deviceName" value="Moto G (4)"/>
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="test.LocalizationTestSuite"/>
+    </classes>
+  </test> <!-- Test on 3 device -->
+  <test name="Test on 4 device">
+    <parameter name="wdaPort" value="NA"/>
+    <parameter name="simulator" value="false"/>
+    <parameter name="os" value="6.0"/>
+    <parameter name="port" value="64740"/>
+    <parameter name="udid" value="0d62d7f843e4ba94"/>
+    <parameter name="locale" value="fr-FR"/>
+    <parameter name="deviceName" value="0d62d7f843e4ba94"/>
+    <parameter name="platform" value="Android"/>
+    <classes>
+      <class name="test.LocalizationTestSuite"/>
+    </classes>
+  </test> <!-- Test on 4 device -->
+</suite> <!-- Failed suite [TestSuite] -->
